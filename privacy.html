@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MD-Assistant — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 34rem; margin: 0 auto; padding: 3rem 1.25rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8ea; background: #16161a; }
+    a { color: #7fb3ff; }
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  .sub { color: #6b6b70; margin: 0 0 2rem; }
+  h2 { font-size: 1rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; font-size: .875rem; color: #6b6b70; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="sub">MD-Assistant · last updated 12 September 2026</p>
+
+  <p>MD-Assistant is a self-hosted personal assistant with exactly one user: its
+  author and operator. It is not a service offered to other people, and it holds no
+  data belonging to anyone other than its operator.</p>
+
+  <h2>What data it accesses</h2>
+  <ul>
+    <li><strong>Gmail</strong> — message content and metadata, read-only
+      (<code>gmail.readonly</code>).</li>
+    <li><strong>Google Calendar</strong> — event details, read-only
+      (<code>calendar.readonly</code>).</li>
+  </ul>
+  <p>It does not request permission to send, modify, or delete anything.</p>
+
+  <h2>Where the data goes</h2>
+  <p>Data is processed on a single private server controlled by the operator.
+  Message and calendar content may be sent to third-party language-model providers
+  in order to summarise it, reached through
+  <a href="https://openrouter.ai/" rel="noopener">OpenRouter</a>. Those providers
+  process the content to produce a response and are bound by their own terms. No
+  other third party receives the data.</p>
+
+  <h2>What is not done with it</h2>
+  <ul>
+    <li>It is never sold, rented, or shared for advertising.</li>
+    <li>It is not used to train any model, and provider settings are configured to
+      opt out of training where that option exists.</li>
+    <li>It is not made available to any other person.</li>
+  </ul>
+
+  <h2>Retention</h2>
+  <p>Working copies of message and calendar data are held only as long as needed to
+  produce a summary and are then deleted on a fixed schedule. Operational audit
+  records, which describe what the system did rather than the contents of messages,
+  are retained for a limited period for troubleshooting.</p>
+
+  <h2>Access, correction and deletion</h2>
+  <p>The only user is the operator, who can revoke the application's access at any
+  time at <a href="https://myaccount.google.com/permissions" rel="noopener">Google
+  Account permissions</a>, and can delete all stored data directly on the server.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy go to the contact address shown on the Google
+  OAuth consent screen for this application.</p>
+
+  <footer><a href="index.html">← MD-Assistant</a></footer>
+</body>
+</html>

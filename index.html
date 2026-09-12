@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MD-Assistant</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 34rem; margin: 0 auto; padding: 3rem 1.25rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1c1e; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e8e8ea; background: #16161a; }
+    a { color: #7fb3ff; }
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+  .sub { color: #6b6b70; margin: 0 0 2rem; }
+  h2 { font-size: 1rem; margin: 2rem 0 .5rem; }
+  footer { margin-top: 3rem; font-size: .875rem; color: #6b6b70; }
+</style>
+</head>
+<body>
+  <h1>MD-Assistant</h1>
+  <p class="sub">A private personal assistant, used by one person: its author.</p>
+
+  <p>MD-Assistant is a self-hosted application that reads its owner's own Gmail and
+  Google Calendar to summarise what needs attention and answer questions about it.
+  It runs on a single private server and is not offered to anyone else.</p>
+
+  <h2>Who can use it</h2>
+  <p>Nobody but the account owner. There is no sign-up, no shared instance, and no
+  public interface. The Google OAuth consent screen exists only so the owner can
+  grant the application access to their own data.</p>
+
+  <h2>What it accesses</h2>
+  <p>Read-only access to the owner's Gmail messages and Google Calendar events.
+  It does not send mail, modify messages, or change calendar entries.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>Contact: the address shown on the OAuth consent screen.</footer>
+</body>
+</html>
